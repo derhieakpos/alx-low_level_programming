@@ -6,5 +6,7 @@
  */
 int main(void)
 {
-	putchar("a-z\n");
+	int a;
+	for (a = 97; a <= 122; a++)
+		putchar("\n");
 }
