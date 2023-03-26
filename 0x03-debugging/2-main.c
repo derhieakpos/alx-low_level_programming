@@ -3,6 +3,9 @@
 
 /**
  * main - prints the largest of 3 integers
+ * @a: integer
+ * @b: integer
+ * @c: integer
  * Return: 0
  */
 
