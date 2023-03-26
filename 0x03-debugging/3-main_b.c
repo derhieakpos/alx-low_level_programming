@@ -4,6 +4,9 @@
 /**
  * main - takes a date and prints how many days are left in the year, taking
  * leap years into account
+ * @day: prints day
+ * @month: prints month
+ * @year: prints year
  * Return: 0
  */
 
