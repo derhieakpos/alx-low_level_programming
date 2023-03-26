@@ -4,9 +4,12 @@
 /**
  * main - takes a date and prints how many days are left in the year, taking
  * leap years into account
+ * day: prints day
+ * month: prints month
+ * year: prints year
  * Return: 0
  */
-
+void print_remaining_days(int month, int day, int year);
 int main(void)
 {
 	int month;

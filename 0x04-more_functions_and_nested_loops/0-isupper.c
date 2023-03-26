@@ -1,23 +1,18 @@
 #include "main.h"
 /**
- * main - Entry point
- * Description: checks for uppercase characters
+ * _isupper - checks for uppercase characters
+ * @c: check for uppercase letters
  * Return: Always 0
  */
-int _isupper(int c);
-{
-	int n;
+int _isupper(int c)
 
-	for (c = 0; c <= n; c++)
+{
+	if (c >= 'A' && c <= 'Z')
 	{
-		if (c == 'A')
-		{
-			return (1);
-		}
-		else if (c == 'a')
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
