@@ -3,6 +3,7 @@
  *_strcat - appends two different strings together
  * @dest: first strings
  * @char: second strings
+*
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
