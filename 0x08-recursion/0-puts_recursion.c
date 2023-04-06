@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * _puts - the functions prints an output
+ * _puts_recursion - the functions prints an output
  * @s: the value to be output
  *
  */
