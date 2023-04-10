@@ -1,7 +1,7 @@
 #include "main.h"
-/** 
+/**
  * main - Entry point
- * Description: putchar
+ * @c: the character
  * Return: 0
  */
 
