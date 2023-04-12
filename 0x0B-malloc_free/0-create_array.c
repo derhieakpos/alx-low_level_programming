@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * creat_array - creates an array of chars and initialize it.
- * @unsigned int: The size of characters for the char.
+ * create_array - creates an array of chars and initialize it.
+ * @size: The size of characters for the char.
  * @c: The array of characters.
  *
  * Return: Null if size is zero.
