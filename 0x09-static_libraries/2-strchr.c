@@ -1,5 +1,2 @@
-#include "main.h"
-
-char *_strchr(char *s, char c)
-{
-}
+#!/bin/bash
+char *_strchr(char *s, char c);

@@ -1,5 +1,2 @@
-#include "main.h"
-
-void _puts(char *s)
-{
-}
+#!/bin/bash
+void _puts(char *s);

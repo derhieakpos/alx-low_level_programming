@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _isdigit(int c)
-{
-}
+#!/bin/bash
+int _isdigit(int c);

@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _islower(int c)
-{
-}
+#!/bin/bash
+int _islower(int c);

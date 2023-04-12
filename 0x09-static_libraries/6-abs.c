@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _abs(int n)
-{
-}
+#!/bin/bash
+int _abs(int n);

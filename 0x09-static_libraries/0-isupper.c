@@ -1,6 +1,2 @@
-#include "main.h"
-
-
-int _isupper(int c)
-{
-}
+#!/bin/bash
+int _isupper(int c);

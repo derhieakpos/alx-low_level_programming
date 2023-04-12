@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _isalpha(int c)
-{
-}
+#!/bin/bash
+int _isalpha(int c);

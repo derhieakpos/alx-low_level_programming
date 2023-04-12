@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _atoi(char *s)
-{
-}
+#!bin/bash
+int _atoi(char *s);

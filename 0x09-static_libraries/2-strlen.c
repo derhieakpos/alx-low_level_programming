@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _strlen(char *s)
-{
-}
+#!/bin/bash
+int _strlen(char *s);

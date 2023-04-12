@@ -1,5 +1,2 @@
-#include "main.h"
-
-int _strcmp(char *s1, char *s2)
-{
-}
+#!/bin/bash
+int _strcmp(char *s1, char *s2);
