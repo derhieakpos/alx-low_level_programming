@@ -1,2 +1,5 @@
-#!/bin/bash
-char *_strpbrk(char *s, char *accept);
+#include "main.h"
+
+char *_strpbrk(char *s, char *accept)
+{
+}

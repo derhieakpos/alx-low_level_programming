@@ -1,2 +1,5 @@
-#!/bin/bash
-char *_memcpy(char *dest, char *src, unsigned int n);}
+#include "main.h"
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+}
