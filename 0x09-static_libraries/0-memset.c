@@ -1,5 +1,10 @@
 #include "main.h"
-
-char *_strcat(char *dest, char *src)
+/**
+ * _memset - upper case.
+ * @dest: the string.
+ * @src: the string.
+ * Return: 1
+ */
+char *_memset(char *s, char b, unsigned int n)
 {
 }
