@@ -1,3 +1,5 @@
+#ifndef LINE_H
+#define LINE_H
 #include <stdio.h>
 
 int main(void)
@@ -6,3 +8,5 @@ int main(void)
 
 	return (0);
 }
+
+#endif /*LINE_H*/
