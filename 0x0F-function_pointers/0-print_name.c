@@ -8,8 +8,7 @@
  */
 void print_name(char *name, void (*f) (char *))
 {
-	if (!name || !f) /* if ant is NULL */
-		return;
+	if (name != NULL && f != NULL)
 
-	f(name);
+		f(name);
 }
