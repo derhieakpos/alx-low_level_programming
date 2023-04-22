@@ -1,9 +1,11 @@
 #include "function_pointers.h"
+
 /**
  * print_name - a function that prints a name passed to it
  * @name: a string to be display
  * @f: A pointer function
- * Return: No return cause we've declared VOID as R_TYPE
+ *
+ * Return: NULL if empty
  */
 void print_name(char *name, void (*f)(char *))
 {
