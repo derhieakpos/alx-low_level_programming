@@ -6,6 +6,7 @@ void start(void)__attribute__((constructor));
 /**
  * start - executes this function before the main is executed.
  */
+
 void start(void)
 {
 	printf("You're beat! abd yet, you must allow,\n");
