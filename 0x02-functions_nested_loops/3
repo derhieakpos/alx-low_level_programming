@@ -1,10 +1,11 @@
 #include "main.h"
 /**
  * main - Entry point
+ * @c: the character
  * Return: 0
  */
 
-int main(void)
+int _putchar(char c);
 {
 	_putchar('_');
 	_putchar('p');
