@@ -1,8 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <stddef.h>
 
 /**
  * read_textfile - reads a file and printsnit to
