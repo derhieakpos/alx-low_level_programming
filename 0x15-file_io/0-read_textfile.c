@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * read_textfile - reads a file and printsnit to
- * the POXIS standard output.
+ * read_textfile - reads a text file and prints it to
+ *                 the POSIX standard output.
  * @filename: pointer to the file.
  * @letters: size of the buffer.
+ *
+ * Return: buffer.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
@@ -13,7 +15,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	file = f_print = f_read = 0;
 
-	buf = malloc(letters * sizeof(char)); 
+	buf = malloc(letters * sizeof(char));
 
 	if (filename == NULL)
 		return (0);
@@ -41,4 +43,3 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	free(buf);
 	return (f_read);
 }
-
